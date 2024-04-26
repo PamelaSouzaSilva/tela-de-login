@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <html>
- 
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Tela de Login</title>
+    <title>Tela Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
 </head>
- 
 <body>
- 
-    <h1>Formulário de Login</h1>
-    <form id="loginForm" method='post' action=''>
-        <div class="accessField">
-            <p>
-                <label for='username'>Usuário:</label><br>
-                <input type='text' id='username'>
-            </p>
- 
-            <p>
-                <label for='password'>Senha:</label><br>
-                <input type='password' id='password'>
-            </p>
-        </div>
-        <nav id="menu">
-            <button> <a href="entrar.html">entrar</a> </button><br>
-            <a href="forgotPassword.html">Esqueci minha senha</a>
-           
-        </nav>
-    </form>
- 
-    <script src="login.js"></script>
- 
+    <div>
+        <form id="loginForm">
+            <div>
+                <label for="inputEmail4" class="form-label">Usuário</label><br>
+                <input type="email" class="form-control" id="user">
+            </div><br>
+            <div>
+                <label for="inputPassword4" class="form-label">Senha</label><br>
+                <input type="password" id="senha"><br><br>
+                <a href="forgotPassword.html">Esqueci minha senha</a>
+            </div>
+            <div>
+                <button id="btn-login" type="button" onclick="validarLogin()">Entrar</button><br>
+            </div>
+            <span>Não tem cadastro?<a href="cadastre-se.html">Cadastre-se</a></span>
+        </form>
+    </div>
+    <script src='login.js'></script>
 </body>
- 
-</html>
+</html
