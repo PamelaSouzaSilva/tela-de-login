@@ -18,7 +18,7 @@
 ## Introdução ✉️
 - A empresa Alpha está expandindo suas operações e busca um(a) programador(a) trainee para integrar sua equipe de TI própria. O desafio consiste em desenvolver uma tela de login funcional que atenda às necessidades da empresa e dos usuários.
  
-<img src= "">
+<img src= "imagem-login.png">
 <img src= "">
  
  
